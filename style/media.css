@@ -1,0 +1,42 @@
+@media (min-width: 320px){
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bl {
+        left: 287px;
+    }
+
+    .figure-3 {
+        left: 26px;
+        top: 8rem;
+    }
+
+    .figure-2 > .img1 {
+        right: -65px;
+        top: -114px;
+    }
+}
+
+@media (min-width: 921.99px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+        background: #4251ff;
+    }
+
+    .bl {
+        left: 287px;
+    }
+
+    .figure-3 {
+        left: 26px;
+        top: 8rem;
+    }
+
+    .figure-2 > .img1 {
+        right: -65px;
+        top: -114px;
+    }
+}
