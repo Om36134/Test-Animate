@@ -1,29 +1,30 @@
 /*FrederickatheGreat-Regular*/
-/*@font-face{*/
+@font-face{
 
-    /*font-family: 'FrederickatheGreat-Regular';*/
+    font-family: 'FrederickatheGreat-Regular';
 
-    /*src: url('../fonts/FrederickatheGreat-Regular.eot');*/
+    src: url('../fonts/FrederickatheGreat-Regular.eot');
 
-    /*src: url('../fonts/FrederickatheGreat-Regular.eot?iefix') format('eot'),*/
+    src: url('../fonts/FrederickatheGreat-Regular.eot?iefix') format('eot'),
 
-    /*url('../fonts/FrederickatheGreat-Regulart.woff') format('woff'),*/
+    url('../fonts/FrederickatheGreat-Regulart.woff') format('woff'),
 
-    /*url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype'),*/
+    url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype'),
 
-    /*url('../fonts/FrederickatheGreat-Regular.svg#webfont') format('svg');*/
+    url('../fonts/FrederickatheGreat-Regular.svg#webfont') format('svg');
 
-    /*font-weight: normal;*/
+    font-weight: normal;
 
-    /*font-style: normal;*/
+    font-style: normal;
 
-/*}*/
+}
 
 
 .title-header{
     font-family: 'FrederickatheGreat-Regular';
-    font-size: 24px;
-    margin-top: 76px;
+    font-size: 44px;
+    margin-top: 93px;
+    color: #232121;
 }
 
 h2{
@@ -34,22 +35,19 @@ h2{
 
 .container {
     position: relative;
-    max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 1440px;
     margin: 0 auto;
     background: #ff7ea8;
 }
 
 .bl {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: absolute;
-    top: 183px;
-    left: 612px;
+    top: 172px;
+    left: 414px;
     transform: translate(50%, 10px);
     text-align: center;
-
 }
 
 .video-hero {
@@ -68,22 +66,22 @@ h2{
     position: absolute;
     left: 0px;
     bottom: 25px;
-    border-bottom: 181px solid #0b0b17;
+    border-bottom: 257px solid #0b0b17;
     border-top: 0px solid transparent;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
     z-index: -1;
 }
 
 .figura:before {
     content: "";
     position: relative;
-    left: -87px;
+    left: -133px;
     top: 15px;
-    border-bottom: 162px solid #fff042;
+    border-bottom: 234px solid #fff042;
     border-top: 0px solid transparent;
-    border-right: 88px solid transparent;
-    border-left: 88px solid transparent;
+    border-right: 134px solid transparent;
+    border-left: 134px solid transparent;
     z-index: -1;
 }
 

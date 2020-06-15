@@ -1,42 +1,24 @@
 @media (min-width: 320px){
     .container{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .bl {
-        left: 287px;
-    }
-
-    .figure-3 {
-        left: 26px;
-        top: 8rem;
-    }
-
-    .figure-2 > .img1 {
-        right: -65px;
-        top: -114px;
+       background: #fff042;
     }
 }
 
-@media (min-width: 921.99px){
+@media (min-width: 600px){
     .container{
-        padding-left: 30px;
-        padding-right: 30px;
-        background: #4251ff;
+        background: #255282;
     }
+}
 
-    .bl {
-        left: 287px;
+@media (min-width: 900px){
+    .container{
+        background: #ef18a7;
     }
+}
 
-    .figure-3 {
-        left: 26px;
-        top: 8rem;
-    }
 
-    .figure-2 > .img1 {
-        right: -65px;
-        top: -114px;
+@media (min-width: 1200px){
+    .container{
+        background: #5da8ef;
     }
 }
