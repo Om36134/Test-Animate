@@ -57,3 +57,22 @@ cars.includes()
 // const text = 'Привет, мы изучаем JS!'
 // const reversTExt = text.split('').reverse().join('') //split - метод делит строчку и возвращает массив
 // console.log(reversTExt);
+
+const user = {
+    name: 'John Ludwig',
+    gender: 'Male'
+};
+const college = {
+    primary: 'Mani Primary School',
+    secondary: 'Lass Secondary School'
+};
+const skills = {
+    programming: 'Extreme',
+    swimming: 'Average',
+    sleeping: 'Pro'
+};
+const summary = {...user, ...college, ...skills};
+console.log(user);
+console.log(college);
+console.log(skills);
+console.log(summary);
